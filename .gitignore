@@ -16,3 +16,4 @@ capybara-*.html
 /vendor/
 .powenv
 /.direnv/
+/sakura-toolbox-*.gem
