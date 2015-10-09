@@ -23,25 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.3"
-  # capistrano
-  spec.add_development_dependency "capistrano", "~> 3.4"
-  spec.add_development_dependency "capistrano-bundler", "~> 1.1"
-  spec.add_development_dependency "capistrano-rails", "~> 1.1"
-  # haml
-  spec.add_development_dependency "haml-rails", "~> 0.9"
-  spec.add_development_dependency "erb2haml", "~> 0.1"
-  # bootstrap
-  spec.add_development_dependency "bootstrap-generators", "~> 3.3"
-
-  # developing tools
-  spec.add_development_dependency "simple_form", "~> 3.1"
-  spec.add_development_dependency "annotate", "~> 2.6"
-  # test
-  spec.add_development_dependency "rspec-rails", "~> 3.3"
-  spec.add_development_dependency "factory_girl_rails", "~> 4.0"
-  spec.add_development_dependency "faker", "~> 1.5"
-  spec.add_development_dependency "better_errors", "~> 2.1"
-  spec.add_development_dependency "binding_of_caller", "~> 0.7"
 
   # runtime basic dependency
   spec.add_runtime_dependency "execjs", "~> 2.6"
